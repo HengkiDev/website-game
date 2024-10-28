@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permainan Tambah-Tambah</title>
+    <link rel="stylesheet" href="css/matematika.css">
+    <link rel="preload" as="audio" type="audio/mpeg" href="sound/correct.mp3" id="correctSound">
+    <link rel="preload" as="audio" type="audio/mpeg" href="sound/incorrect.mp3" id="incorrectSound">
+</head>
+<body>
+    <div class="container">
+        <h1>Pembelajaran Tambah-Tambah</h1>
+        <strong><div id="question"></div></strong>
+        <input type="text" inputmode="numeric" id="answer" placeholder="Jawaban Anda" />
+        <button id="submit">Kirim</button>
+        <div id="result"></div>
+        <button id="next" style="display: none;">Soal Selanjutnya</button>
+        <div id="score">Skor: 0</div>
+        <audio id="correctAudio" src="audio/correct-6033.mp3"></audio>
+        <audio id="incorrectAudio" src="audio/wronganswer-37702.mp3"></audio>
+    </div>
+    <script src="js/kali.js"></script>
+    
+</body>
+</html>
